@@ -32,13 +32,13 @@ Built with **React + FastAPI + PostgreSQL**.
 
 ## Tech Stack
 
- Layer - Technology 
--------------------
-Frontend - React + Vite 
-Backend - FastAPI 
-Database - PostgreSQL 
-ORM - SQLAlchemy 
-Styling - CSS
+| Layer | Technology |
+|-----|-----------|
+| Frontend | React + Vite |
+| Backend | FastAPI |
+| Database | PostgreSQL |
+| ORM | SQLAlchemy |
+| Styling | CSS |
 
 
 
