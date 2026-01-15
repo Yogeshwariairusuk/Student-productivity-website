@@ -1,0 +1,77 @@
+:root {
+  --primary: #6a7cff;     /* soft blue */
+  --secondary: #9b8cff;   /* purple */
+  --bg: #f6f8ff;          /* light background */
+  --card-bg: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --success: #10b981;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+/* APP LAYOUT */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, #7c7cff, #9f7aea);
+  color: white;
+  padding: 24px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.sidebar .tagline {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.sidebar nav a:hover {
+  opacity: 1;
+  font-weight: 600;
+}
+
+/* MAIN CONTENT */
+.app-content {
+  flex: 1;
+  padding: 40px;
+}

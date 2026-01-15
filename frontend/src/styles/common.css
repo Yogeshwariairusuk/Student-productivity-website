@@ -1,0 +1,76 @@
+.card {
+  background: white;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.success { background:#10b981;color:white }
+.danger { background:#ef4444;color:white }
+/* APP LAYOUT */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* SIDEBAR */
+.navbar {
+  width: 220px; /* smaller & clean */
+  background: linear-gradient(180deg, #7c7cff, #9f7aea);
+  color: #fff;
+  padding: 20px 16px;
+}
+
+.navbar h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* MAIN CONTENT */
+.dashboard,
+.page-container {
+  flex: 1;
+  padding: 40px;
+}
+
+/* CENTER CONTENT */
+.dashboard-container,
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
